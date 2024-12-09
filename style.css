@@ -195,6 +195,18 @@ aside {
   color: rgb(234, 234, 234);
   text-transform: uppercase;
 }
+.main_A h2 {
+  font-size: 2rem;
+  color: rgb(234, 234, 234);
+  text-transform: uppercase;
+  line-height: 4em;
+  text-align: center;
+}
+.main_A h4 {
+  font-size: 1rem;
+  color: rgb(234, 234, 234);
+  text-align: center;
+}
 .main_A p {
   font-size: 1rem;
   color: white;
