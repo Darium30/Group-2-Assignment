@@ -195,18 +195,6 @@ aside {
   color: rgb(234, 234, 234);
   text-transform: uppercase;
 }
-.main_A h2 {
-  font-size: 2rem;
-  color: rgb(234, 234, 234);
-  text-transform: uppercase;
-  line-height: 4em;
-  text-align: center;
-}
-.main_A h4 {
-  font-size: 1rem;
-  color: rgb(234, 234, 234);
-  text-align: center;
-}
 .main_A p {
   font-size: 1rem;
   color: white;
@@ -329,4 +317,41 @@ input[type="number"]::-webkit-outer-spin-button {
 .submit_btn:hover {
   background: linear-gradient(to right, #376391, #6883db);
   transform: scale3d(1.02, 1.05, 1.02);
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6 0.8rem;
+  gap: 0.4rem;
+}
+
+aside h2 {
+  font-size: 1rem;
+}
+
+.mynews h3 {
+  font-size: 0.8rem;
+}
+
+.mynews p {
+  font-size: 0.6rem;
+  text-justify: justify;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.mynews {
+  direction: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background: rgba(2, 27, 65, 0.5);
+  color: rgb(243, 250, 250);
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0.8rem 1rem;
 }
