@@ -249,10 +249,9 @@ aside {
   font-weight: bold;
   display: block;
 }
+
 main .btn {
 }
-
-
 .myForm input,
 .myForm textarea,
 .myForm select {
@@ -396,12 +395,14 @@ aside {
   padding: 0.6rem 0.8rem;
   gap: 0.4rem;
   height: 100%;
-}
 
-aside h2 {
-  font-size: 1.45rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
 }
-
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 .card-back {
   top: 0;
   right: 0;
@@ -411,6 +412,11 @@ aside h2 {
   color: white;
   transform: rotateY(180deg);
 }
+
+aside h2 {
+  font-size: 1.45rem;
+}
+<<<<<<<<< Temporary merge branch 1
 
 .mynews h3 {
   font-size: 1.24rem;
@@ -437,14 +443,26 @@ aside h2 {
   border-radius: 5px;
   margin: 2px;
   padding: 0.4rem 0.3rem;
-
+=========
+.card-back {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #073b73;
+  color: white;
+  transform: rotateY(180deg);
+>>>>>>>>> Temporary merge branch 2
 }
 
 .card-name {
   padding: 0;
 
 }
+<<<<<<<<< Temporary merge branch 1
 
+=========
+>>>>>>>>> Temporary merge branch 2
 .card-image {
   width: 100%;
   height: 220px;
@@ -452,19 +470,7 @@ aside h2 {
   border-radius: 10px;
 }
 
-
-.staff {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-.trainees {
-  margin: 0 0 5% 0;
-  width: 100%;
-  height: 100%;
-}
-  
-
+<<<<<<<<< Temporary merge branch 1
 .readOn a {
   display: flex;
   align-items: center;
@@ -521,4 +527,15 @@ aside h2 {
   transition: all 0.3s ease-in;
   cursor: pointer;
   transform: translate3d(0, -5px, 0);
+=========
+.staff {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.trainees {
+  margin: 0 0 5% 0;
+  width: 100%;
+  height: 100%;
+>>>>>>>>> Temporary merge branch 2
 }
