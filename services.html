@@ -15,12 +15,12 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/8d9522dee8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
     <title>Document</title>
   </head>
   <body>
     <body>
-      <div class="container">
+      <div class="mycontainer">
         <video
           src="videos/vid_a.mp4"
           class="vid_bg"
@@ -30,15 +30,15 @@
         ></video>
         <div class="content">
           <header>
-            <a href="#">
+            <a href="#" class="link-offset-2 link-underline link-underline-opacity-0" >
               <img src="icons/icon.png" alt="icon" class="bis_icon" />
             </a>
             <nav>
               <ul class="nav_bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="link-offset-2 link-underline link-underline-opacity-0" >Home</a></li>
+                <li><a href="about.html" class="link-offset-2 link-underline link-underline-opacity-0" >About</a></li>
+                <li><a href="services.html" class="link-offset-2 link-underline link-underline-opacity-0" >Services</a></li>
+                <li><a href="contact.html" class="link-offset-2 link-underline link-underline-opacity-0" >Contact</a></li>
               </ul>
             </nav>
             <div>
@@ -51,7 +51,76 @@
             </div>
           </header>
           <div class="main-content">
-            <main class="main_A"></main>
+            <main class="main_A">
+              <h2>Nigerian Food Items</h2>
+              <table class="myTable">
+                <thead >
+                  <tr class="thead">
+                    <th scope="col">Products</th>
+                    <th scope="col">Prices (₦)</th>
+                    <th scope="col">Quantities</th>
+                    <th scope="col">Availability</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="products">Jollof Rice</td>
+                    <td class="prices">₦1,500</td>
+                    <td class="quantities">Per plate</td>
+                    <td class="availability">Daily</td>
+                  </tr>
+                  <tr>
+                    <td class="products">Suya</td>
+                    <td class="prices">₦1,000</td>
+                    <td class="quantities">Per portion</td>
+                    <td class="availability">Evenings</td>
+                  </tr>
+                  <tr>
+                    <td class="products">Pounded Yam with Egusi Soup</td>
+                    <td class="prices">₦2,000</td>
+                    <td class="quantities">Per serving</td>
+                    <td class="availability">Daily</td>
+                  </tr>
+                  <tr>
+                    <td class="products">Akara</td>
+                    <td class="prices">₦50</td>
+                    <td class="quantities">Per piece</td>
+                    <td class="availability">Mornings</td>
+                  </tr>
+                  <tr>
+                    <td class="products">Moi Moi</td>
+                    <td class="prices">₦300</td>
+                    <td class="quantities">Per wrap</td>
+                    <td class="availability">Daily</td>
+                  </tr>
+                </tbody>
+              </table>
+          
+              <div class="list">
+                <div class="shopping_list">
+                  <p>Shopping List</p>
+                <ul>
+                  <li>🍔 Burger</li>
+                  <li>🍔 Chicken</li>
+                  <li>🐟Fish</li>
+                  <li>🍝Pasta</li>
+                  <li>🐄Beef</li>
+                  <li>🍕Pizza</li>
+                </ul>
+              </div>
+              <div class="todoList">
+                <p>Todo List</p>
+                <ol>
+                  <li>🛒Go To The MAll</li>
+                  <li>Visit The Galleria</li>
+                  <li>📑Visit The Market</li>
+                  <li>🏨Visit The Hotel</li>
+                  <li>🎥Visit The Cinema</li>
+                  <li>🍽️Visit The Restaurant</li>
+                </ol>
+              </div>
+              </div>
+            </main>
             <aside>
               <h2>Front End Weekly</h2>
               <div class="news">
@@ -69,9 +138,9 @@
                     efficiency and flexibility.
                   </p>
                   <div class="readOn">
-                    <a href="#">
-                      <p>Read On</p>
-                      <i class="fa-regular fa-arrow-right fa-sm" style="color: #0c1b36;"></i>
+                    <a href="https://medium.com/front-end-weekly/the-future-of-web-development-why-a-strong-reactjs-strategy-is-essential-%EF%B8%8F-c0ed4a4ec373?source=collection_home_page----c539d790d38a-----1----------------------------" class="link-offset-2 link-underline link-underline-opacity-0" >
+                      <p>Continue Reading</p>
+                      <img src="icons/arrow.svg" alt="readon">
                     </a>
                   </div>
                 </div>
@@ -85,9 +154,9 @@
                     auditory, motor, or cognitive impairments.
                   </p>
                   <div class="readOn">
-                    <a href="#">
-                      <p>Read On</p>
-                      <i class="fa-regular fa-arrow-right fa-sm" style="color: #0c1b36;"></i>
+                    <a href="https://medium.com/front-end-weekly/the-future-of-web-development-why-a-strong-reactjs-strategy-is-essential-%EF%B8%8F-c0ed4a4ec373?source=collection_home_page----c539d790d38a-----1----------------------------" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <p>Continue Reading</p>
+                      <img src="icons/arrow.svg" alt="readon">
                     </a>
                   </div>
                 </div>
@@ -102,9 +171,9 @@
                     menus responsive, and content dynamic.
                   </p>
                   <div class="readOn">
-                    <a href="#">
-                      <p>Read On</p>
-                      <i class="fa-regular fa-arrow-right fa-sm" style="color: #0c1b36;"></i>
+                    <a href="https://medium.com/front-end-weekly/the-future-of-web-development-why-a-strong-reactjs-strategy-is-essential-%EF%B8%8F-c0ed4a4ec373?source=collection_home_page----c539d790d38a-----1----------------------------" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <p>Continue Reading</p>
+                      <img src="icons/arrow.svg" alt="readon">
                     </a>
                   </div>
                 </div>
@@ -118,9 +187,9 @@
                     buttons just begging to be clicked.
                   </p>
                   <div class="readOn">
-                    <a href="#">
-                      <p>Read On</p>
-                      <i class="fa-regular fa-arrow-right fa-sm" style="color: #0c1b36;"></i>
+                    <a href="https://medium.com/front-end-weekly/the-future-of-web-development-why-a-strong-reactjs-strategy-is-essential-%EF%B8%8F-c0ed4a4ec373?source=collection_home_page----c539d790d38a-----1----------------------------" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <p>Continue Reading</p>
+                      <img src="icons/arrow.svg" alt="readon">
                     </a>
                   </div>
                 </div>
@@ -135,9 +204,9 @@
                     the status quo.
                   </p>
                   <div class="readOn">
-                    <a href="#">
-                      <p>Read On</p>
-                      <i class="fa-regular fa-arrow-right fa-sm" style="color: #0c1b36;"></i>
+                    <a href="https://medium.com/front-end-weekly/forget-javascript-achieve-dark-mode-effortlessly-with-brand-new-css-function-light-dark-2024-94981c61756b?source=collection_home_page----c539d790d38a-----12----------------------------" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <p>Continue Reading</p>
+                      <img src="icons/arrow.svg" alt="readon">
                     </a>
                   </div>
                 </div>
@@ -152,18 +221,19 @@
                     activate them.
                   </p>
                   <div class="readOn">
-                    <a href="#">
-                      <p>Read On</p>
-                      <i class="fa-regular fa-arrow-right fa-sm" style="color: #0c1b36;"></i>
+                    <a href="https://medium.com/front-end-weekly/forget-javascript-achieve-dark-mode-effortlessly-with-brand-new-css-function-light-dark-2024-94981c61756b?source=collection_home_page----c539d790d38a-----12----------------------------" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <p>Continue Reading</p>
+                      <img src="icons/arrow.svg" alt="readon">
                     </a>
                   </div>
                 </div>
               </div>
+              <a href="index.html" class="reg_btn">More News</a>
               <div class="socials">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+                <a href="https://web.facebook.com/digitalupliftng"><img src="icons/facebook.svg" alt=""></a>
+                <a href="https://www.instagram.com/digitalupliftng/"><img src="icons/instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/company/digitalupliftng/"><img src="icons/linkedin.svg" alt=""></a>
+                <a href="https://x.com/envato/"><img src="icons/x-twitter.svg" alt=""></a>
               </div>
             </aside>
           </div>
